@@ -92,3 +92,19 @@ form{
     font-weight:bold;
     color:#596d48;
 }
+
+input{
+    width:250px;
+    height:20px;
+    border:1px solid #ccc;
+}
+
+input:focus{
+    outline:none;
+    border-color:rgb(18, 18, 156);
+}
+
+.password:invalid{
+    outline:none;
+    border-color:red;
+}
