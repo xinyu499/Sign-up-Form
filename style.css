@@ -1,14 +1,94 @@
+@font-face{
+    font-family: 'MyFont';
+    src: url('font/MyFont.ttf') format('truetype');
+}
+
+
 body{
     display:flex;
     min-height:100vh;
     margin:0;
+
+}
+
+.pad{
+    width:20%;
+    background-color:rgba(14, 14, 14);
+}
+
+#header{
+    width:35%;
+    background-image: url("images/background-image");
+    color: white;
+    display:flex;
+    flex-direction: column;
 }
 
 #logo{
-    width:35%;
+    font-family: 'MyFont', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size:33px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
+#odin-logo{
+    width:90px;
+    height:auto;
+}
+
+#copyright{
+    margin-top: auto;
+    text-align: center;
+}
+
 
 form{
     width:65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0;
 }
 
+#description{
+    background-color:rgba(249, 250, 251);
+
+}
+
+#let{
+    padding-left:5%;
+}
+
+#information{
+    display:flex;
+    padding-left:5%;
+    gap:10%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+
+#bottom{
+    margin-top: 3%;
+    background-color: (249, 250, 251);
+    padding-left:5%;
+}
+
+#btn{
+    width: 200px;
+    height: 45px;
+    border-radius:5%;
+    background-color: #596d48;
+    color:white;
+}
+
+#log{
+    text-decoration:none;
+    font-weight:bold;
+    color:#596d48;
+}
