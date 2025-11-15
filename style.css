@@ -1,0 +1,14 @@
+body{
+    display:flex;
+    min-height:100vh;
+    margin:0;
+}
+
+#logo{
+    width:35%;
+}
+
+form{
+    width:65%;
+}
+
